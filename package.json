@@ -1,0 +1,46 @@
+{
+  "name": "jotaiflix",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@c0d3t3k/jotai-devtools": "git+https://github.com/c0d3t3k/jotai-devtools.git",
+    "@c0d3t3k/jotai-optics": "git+https://github.com/c0d3t3k/jotai-optics.git",
+    "jotai": "^0.10.1",
+    "lodash": "^4.17.20",
+    "optics-ts": "^1.1.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-icons": "^3.11.0",
+    "react-query-devtools": "^2.6.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.3",
+    "recoil": "0.0.13"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "react-query": "^2.23.0"
+  }
+}
